@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robot Simulation</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+    .instructions {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      max-width: 300px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .instructions h3 {
+      margin-top: 0;
+    }
+    .instructions ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="http://127.0.0.1:7000/static/"></iframe>
+
+  <div class="instructions">
+    <h3>Left Arm Controls</h3>
+    <ul>
+      <li><strong>W:</strong> +X (Forward)</li>
+      <li><strong>S:</strong> -X (Backward)</li>
+      <li><strong>A:</strong> +Y (Left)</li>
+      <li><strong>D:</strong> -Y (Right)</li>
+      <li><strong>↑</strong> +Z (Up)</li>
+      <li><strong>↓</strong> -Z (Down)</li>
+    </ul>
+  </div>
+</body>
+</html>

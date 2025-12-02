@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A01579302D53444C001C9B57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015792F2D53444C001C9B57 /* AppDelegate.swift */; };
+		A01579342D53444C001C9B57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01579332D53444C001C9B57 /* ViewController.swift */; };
+		A01579372D53444C001C9B57 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A01579362D53444C001C9B57 /* Base */; };
+		A01579392D53444E001C9B57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A01579382D53444E001C9B57 /* Assets.xcassets */; };
+		A015793C2D53444E001C9B57 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A015793B2D53444E001C9B57 /* Base */; };
+		A01579462D53444E001C9B57 /* PhoneTeleopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01579452D53444E001C9B57 /* PhoneTeleopTests.swift */; };
+		A01579502D53444E001C9B57 /* PhoneTeleopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015794F2D53444E001C9B57 /* PhoneTeleopUITests.swift */; };
+		A01579522D53444E001C9B57 /* PhoneTeleopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01579512D53444E001C9B57 /* PhoneTeleopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A01579422D53444E001C9B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01579242D53444C001C9B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A015792B2D53444C001C9B57;
+			remoteInfo = PhoneTeleop;
+		};
+		A015794C2D53444E001C9B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A01579242D53444C001C9B57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A015792B2D53444C001C9B57;
+			remoteInfo = PhoneTeleop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A015792C2D53444C001C9B57 /* PhoneTeleop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneTeleop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A015792F2D53444C001C9B57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A01579332D53444C001C9B57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A01579362D53444C001C9B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A01579382D53444E001C9B57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A015793B2D53444E001C9B57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A01579412D53444E001C9B57 /* PhoneTeleopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneTeleopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A01579452D53444E001C9B57 /* PhoneTeleopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTeleopTests.swift; sourceTree = "<group>"; };
+		A015794B2D53444E001C9B57 /* PhoneTeleopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneTeleopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A015794F2D53444E001C9B57 /* PhoneTeleopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTeleopUITests.swift; sourceTree = "<group>"; };
+		A01579512D53444E001C9B57 /* PhoneTeleopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneTeleopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A01579292D53444C001C9B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A015793E2D53444E001C9B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01579482D53444E001C9B57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01579232D53444C001C9B57 = {
+			isa = PBXGroup;
+			children = (
+				A015792E2D53444C001C9B57 /* PhoneTeleop */,
+				A01579442D53444E001C9B57 /* PhoneTeleopTests */,
+				A015794E2D53444E001C9B57 /* PhoneTeleopUITests */,
+				A015792D2D53444C001C9B57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A015792D2D53444C001C9B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A015792C2D53444C001C9B57 /* PhoneTeleop.app */,
+				A01579412D53444E001C9B57 /* PhoneTeleopTests.xctest */,
+				A015794B2D53444E001C9B57 /* PhoneTeleopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A015792E2D53444C001C9B57 /* PhoneTeleop */ = {
+			isa = PBXGroup;
+			children = (
+				A015792F2D53444C001C9B57 /* AppDelegate.swift */,
+				A01579332D53444C001C9B57 /* ViewController.swift */,
+				A01579352D53444C001C9B57 /* Main.storyboard */,
+				A01579382D53444E001C9B57 /* Assets.xcassets */,
+				A015793A2D53444E001C9B57 /* LaunchScreen.storyboard */,
+			);
+			path = PhoneTeleop;
+			sourceTree = "<group>";
+		};
+		A01579442D53444E001C9B57 /* PhoneTeleopTests */ = {
+			isa = PBXGroup;
+			children = (
+				A01579452D53444E001C9B57 /* PhoneTeleopTests.swift */,
+			);
+			path = PhoneTeleopTests;
+			sourceTree = "<group>";
+		};
+		A015794E2D53444E001C9B57 /* PhoneTeleopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A015794F2D53444E001C9B57 /* PhoneTeleopUITests.swift */,
+				A01579512D53444E001C9B57 /* PhoneTeleopUITestsLaunchTests.swift */,
+			);
+			path = PhoneTeleopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A015792B2D53444C001C9B57 /* PhoneTeleop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01579552D53444E001C9B57 /* Build configuration list for PBXNativeTarget "PhoneTeleop" */;
+			buildPhases = (
+				A01579282D53444C001C9B57 /* Sources */,
+				A01579292D53444C001C9B57 /* Frameworks */,
+				A015792A2D53444C001C9B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneTeleop;
+			productName = PhoneTeleop;
+			productReference = A015792C2D53444C001C9B57 /* PhoneTeleop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A01579402D53444E001C9B57 /* PhoneTeleopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A01579582D53444E001C9B57 /* Build configuration list for PBXNativeTarget "PhoneTeleopTests" */;
+			buildPhases = (
+				A015793D2D53444E001C9B57 /* Sources */,
+				A015793E2D53444E001C9B57 /* Frameworks */,
+				A015793F2D53444E001C9B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A01579432D53444E001C9B57 /* PBXTargetDependency */,
+			);
+			name = PhoneTeleopTests;
+			productName = PhoneTeleopTests;
+			productReference = A01579412D53444E001C9B57 /* PhoneTeleopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A015794A2D53444E001C9B57 /* PhoneTeleopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A015795B2D53444E001C9B57 /* Build configuration list for PBXNativeTarget "PhoneTeleopUITests" */;
+			buildPhases = (
+				A01579472D53444E001C9B57 /* Sources */,
+				A01579482D53444E001C9B57 /* Frameworks */,
+				A01579492D53444E001C9B57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A015794D2D53444E001C9B57 /* PBXTargetDependency */,
+			);
+			name = PhoneTeleopUITests;
+			productName = PhoneTeleopUITests;
+			productReference = A015794B2D53444E001C9B57 /* PhoneTeleopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A01579242D53444C001C9B57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A015792B2D53444C001C9B57 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					A01579402D53444E001C9B57 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A015792B2D53444C001C9B57;
+					};
+					A015794A2D53444E001C9B57 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = A015792B2D53444C001C9B57;
+					};
+				};
+			};
+			buildConfigurationList = A01579272D53444C001C9B57 /* Build configuration list for PBXProject "PhoneTeleop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A01579232D53444C001C9B57;
+			productRefGroup = A015792D2D53444C001C9B57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A015792B2D53444C001C9B57 /* PhoneTeleop */,
+				A01579402D53444E001C9B57 /* PhoneTeleopTests */,
+				A015794A2D53444E001C9B57 /* PhoneTeleopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A015792A2D53444C001C9B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01579392D53444E001C9B57 /* Assets.xcassets in Resources */,
+				A01579372D53444C001C9B57 /* Base in Resources */,
+				A015793C2D53444E001C9B57 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A015793F2D53444E001C9B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01579492D53444E001C9B57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A01579282D53444C001C9B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01579342D53444C001C9B57 /* ViewController.swift in Sources */,
+				A01579302D53444C001C9B57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A015793D2D53444E001C9B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01579462D53444E001C9B57 /* PhoneTeleopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01579472D53444E001C9B57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01579522D53444E001C9B57 /* PhoneTeleopUITestsLaunchTests.swift in Sources */,
+				A01579502D53444E001C9B57 /* PhoneTeleopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A01579432D53444E001C9B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A015792B2D53444C001C9B57 /* PhoneTeleop */;
+			targetProxy = A01579422D53444E001C9B57 /* PBXContainerItemProxy */;
+		};
+		A015794D2D53444E001C9B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A015792B2D53444C001C9B57 /* PhoneTeleop */;
+			targetProxy = A015794C2D53444E001C9B57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A01579352D53444C001C9B57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A01579362D53444C001C9B57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A015793A2D53444E001C9B57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A015793B2D53444E001C9B57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A01579532D53444E001C9B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A01579542D53444E001C9B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A01579562D53444E001C9B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R257CGZB56;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakshan.kothakota.PhoneTeleop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A01579572D53444E001C9B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R257CGZB56;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakshan.kothakota.PhoneTeleop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A01579592D53444E001C9B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R257CGZB56;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakshan.kothakota.PhoneTeleopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneTeleop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhoneTeleop";
+			};
+			name = Debug;
+		};
+		A015795A2D53444E001C9B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R257CGZB56;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakshan.kothakota.PhoneTeleopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneTeleop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhoneTeleop";
+			};
+			name = Release;
+		};
+		A015795C2D53444E001C9B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R257CGZB56;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakshan.kothakota.PhoneTeleopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoneTeleop;
+			};
+			name = Debug;
+		};
+		A015795D2D53444E001C9B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R257CGZB56;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chakshan.kothakota.PhoneTeleopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoneTeleop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A01579272D53444C001C9B57 /* Build configuration list for PBXProject "PhoneTeleop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01579532D53444E001C9B57 /* Debug */,
+				A01579542D53444E001C9B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01579552D53444E001C9B57 /* Build configuration list for PBXNativeTarget "PhoneTeleop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01579562D53444E001C9B57 /* Debug */,
+				A01579572D53444E001C9B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A01579582D53444E001C9B57 /* Build configuration list for PBXNativeTarget "PhoneTeleopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A01579592D53444E001C9B57 /* Debug */,
+				A015795A2D53444E001C9B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A015795B2D53444E001C9B57 /* Build configuration list for PBXNativeTarget "PhoneTeleopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A015795C2D53444E001C9B57 /* Debug */,
+				A015795D2D53444E001C9B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A01579242D53444C001C9B57 /* Project object */;
+}
