@@ -3,9 +3,7 @@
 
 This project enables real-time teleoperation of a humanoid robotic arm using an iPhone. By leveraging Apple's ARKit for precise pose estimation, we bypass the need for expensive VR hardware, making intuitive robot control accessible to anyone with a smartphone.
 
-<video width="320" height="240" controls>
-  <source src="Demo/demo.gif" type="video/mp4">
-</video>
+![test](Demo/demo.gif)
 
 
 ## How It Works
